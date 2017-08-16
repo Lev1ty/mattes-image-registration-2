@@ -24,4 +24,5 @@ void Image::SetImage(Image::ImageType::Pointer image) noexcept
 {
 	NULLPTR_WARNING(image_.GetPointer());
 	image_ = image;
+	NULLPTR_ERROR(image_.GetPointer());
 }

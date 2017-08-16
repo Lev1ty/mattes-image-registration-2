@@ -24,6 +24,7 @@ void Reader::SetReader(Reader::ReaderType::Pointer reader) noexcept
 {
 	NULLPTR_WARNING(reader_.GetPointer());
 	reader_ = reader;
+	NULLPTR_ERROR(reader_.GetPointer());
 }
 
 void Reader::Execute()

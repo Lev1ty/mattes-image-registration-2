@@ -24,6 +24,7 @@ void Writer::SetWriter(Writer::WriterType::Pointer writer) noexcept
 {
 	NULLPTR_WARNING(writer_.GetPointer());
 	writer_ = writer;
+	NULLPTR_ERROR(writer_.GetPointer());
 }
 
 void Writer::Execute()

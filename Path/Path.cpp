@@ -24,4 +24,5 @@ void Path::SetPath(std::string* path) noexcept
 {
 	NULLPTR_WARNING(path_.get());
 	path_.reset(path);
+	NULLPTR_ERROR(path_.get());
 }
