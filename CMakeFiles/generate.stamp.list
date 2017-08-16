@@ -1,11 +1,17 @@
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/App/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Entry/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Image/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CHECK/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Visualizer/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Writer/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/ToVTKImage/CMakeFiles/generate.stamp
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/VTKImage/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/App/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/CHECK/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Entry/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Image/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Reader/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/ToVTKImage/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Visualizer/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKImageWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKRendererWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKRenderWindowWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKVolumeWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/VTKVolumePropertyWrapper/CMakeFiles/generate.stamp
+C:/Users/xyu/Registration/Writer/CMakeFiles/generate.stamp

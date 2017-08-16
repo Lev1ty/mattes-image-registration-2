@@ -6,17 +6,16 @@ class Reader :
 	public Image,
 	public Path
 {
-protected:
-	using ReaderType = itk::ImageFileReader<ImageType>;
 public:
 	Reader();
 	~Reader();
 public:
-	ReaderType::Pointer GetReader() const noexcept;
-	ReaderType::ConstPointer GetConstReader() const noexcept;
-	void SetReader(ReaderType::Pointer) noexcept;
+	itk::ImageFileReader<ImageType>::Pointer GetReader() const noexcept;
+	itk::ImageFileReader<ImageType>::ConstPointer GetConstReader() const noexcept;
+	void SetReader(itk::ImageFileReader<ImageType>::Pointer) noexcept;
 public:
 	void Execute();
+	void Instantiate();
 private:
-	ReaderType::Pointer reader_;
+	itk::ImageFileReader<ImageType>::Pointer reader_;
 };

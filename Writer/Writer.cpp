@@ -8,19 +8,18 @@ Writer::~Writer()
 {
 }
 
-Writer::WriterType::Pointer Writer::GetWriter() const noexcept
+itk::ImageFileWriter<Writer::ImageType>::Pointer Writer::GetWriter() const noexcept
 {
 	NULLPTR_ERROR(writer_.GetPointer());
 	return writer_;
 }
 
-Writer::WriterType::ConstPointer Writer::GetConstWriter() const noexcept
+itk::ImageFileWriter<Writer::ImageType>::ConstPointer Writer::GetConstWriter() const noexcept
 {
-	NULLPTR_ERROR(writer_.GetPointer());
-	return writer_;
+	return GetWriter();
 }
 
-void Writer::SetWriter(Writer::WriterType::Pointer writer) noexcept
+void Writer::SetWriter(itk::ImageFileWriter<ImageType>::Pointer writer) noexcept
 {
 	NULLPTR_WARNING(writer_.GetPointer());
 	writer_ = writer;
@@ -29,8 +28,13 @@ void Writer::SetWriter(Writer::WriterType::Pointer writer) noexcept
 
 void Writer::Execute()
 {
-	SetWriter(WriterType::New());
+	Instantiate();
 	GetWriter()->SetFileName(GetConstPath()->c_str());
 	GetWriter()->SetInput(GetConstImage());
 	GetWriter()->Update();
+}
+
+void Writer::Instantiate()
+{
+	SetWriter(itk::ImageFileWriter<ImageType>::New());
 }

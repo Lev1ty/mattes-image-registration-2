@@ -14,8 +14,9 @@ int Entry::Execute()
 	reader->SetPath(new std::string{ "c:/training_001_mr_T1.mhd" });
 	reader->Execute();
 	auto writer = std::make_unique<Writer>();
-	writer->SetPath(new std::string{ "c:/users/adam yu/desktop/output.mhd" });
-	writer->SetImage(reader->GetImage());
-	writer->Execute();
+	//writer->SetPath(new std::string{ "c:/users/adam yu/desktop/output.mhd" });
+	//writer->SetImage(reader->GetImage());
+	//writer->Execute();
+	auto visualizer = std::make_unique<Visualizer>();
 	return 0;
 }

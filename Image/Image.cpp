@@ -16,8 +16,7 @@ Image::ImageType::Pointer Image::GetImage() const noexcept
 
 Image::ImageType::ConstPointer Image::GetConstImage() const noexcept
 {
-	NULLPTR_ERROR(image_.GetPointer());
-	return image_;
+	return GetImage();
 }
 
 void Image::SetImage(Image::ImageType::Pointer image) noexcept

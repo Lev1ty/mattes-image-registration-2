@@ -6,17 +6,16 @@ class Writer :
 	public Image,
 	public Path
 {
-protected:
-	using WriterType = itk::ImageFileWriter<ImageType>;
 public:
 	Writer();
 	~Writer();
 public:
-	WriterType::Pointer GetWriter() const noexcept;
-	WriterType::ConstPointer GetConstWriter() const noexcept;
-	void SetWriter(WriterType::Pointer) noexcept;
+	itk::ImageFileWriter<ImageType>::Pointer GetWriter() const noexcept;
+	itk::ImageFileWriter<ImageType>::ConstPointer GetConstWriter() const noexcept;
+	void SetWriter(itk::ImageFileWriter<ImageType>::Pointer) noexcept;
 public:
 	void Execute();
+	void Instantiate();
 private:
-	WriterType::Pointer writer_;
+	itk::ImageFileWriter<ImageType>::Pointer writer_;
 };

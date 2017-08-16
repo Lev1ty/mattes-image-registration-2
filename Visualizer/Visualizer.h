@@ -1,27 +1,24 @@
 #pragma once
-#include "VTKImage.h"
+#include "VTKImageWrapper.h"
+#include "VTKRendererWrapper.h"
+#include "VTKRenderWindowWrapper.h"
+#include "VTKRenderWindowInteractorWrapper.h"
+#include "VTKSmartVolumeMapperWrapper.h"
+#include "VTKVolumeWrapper.h"
+#include "VTKVolumePropertyWrapper.h"
 class Visualizer :
-	public VTKImage
+	public VTKImageWrapper,
+	public VTKRendererWrapper,
+	public VTKRenderWindowWrapper,
+	public VTKRenderWindowInteractorWrapper,
+	public VTKSmartVolumeMapperWrapper,
+	public VTKVolumeWrapper,
+	public VTKVolumePropertyWrapper
 {
 public:
 	Visualizer();
 	~Visualizer();
 public:
-	vtkRenderWindow* GetRenderWindow() const noexcept;
-	vtkRenderWindow* const GetConstRenderWindow() const noexcept;
-	void SetRenderWindow(vtkRenderWindow*) noexcept;
-	vtkRenderer* GetRenderer() const noexcept;
-	vtkRenderer* const GetConstRenderer() const noexcept;
-	void SetRenderer(vtkRenderer*) noexcept;
-	vtkRenderWindowInteractor* GetRenderWindowInteractor() const noexcept;
-	vtkRenderWindowInteractor* const GetConstRenderWindowInteractor() const noexcept;
-	void SetRenderWindowIneractor(vtkRenderWindowInteractor*) noexcept;
-	vtkSmartVolumeMapper* GetSmartVolumeMapper() const noexcept;
-	vtkSmartVolumeMapper* const GetConstSmartVolumeMapper() noexcept;
-	void SetSmartVolumeMapper(vtkSmartVolumeMapper*) noexcept;
-private:
-	vtkSmartPointer<vtkRenderWindow> render_window_;
-	vtkSmartPointer<vtkRenderer> renderer_;
-	vtkSmartPointer<vtkRenderWindowInteractor> render_window_interactor_;
-	vtkSmartPointer<vtkSmartVolumeMapper> smart_volume_mapper_;
+	void Execute();
+	void Instantiate();
 };

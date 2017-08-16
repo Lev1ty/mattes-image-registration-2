@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration
+# Install script for directory: C:/Users/xyu/Registration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Registration")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Registration")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,16 +29,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/App/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Entry/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Image/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CHECK/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Visualizer/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Writer/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/ToVTKImage/cmake_install.cmake")
-  include("C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/VTKImage/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/App/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/CHECK/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Entry/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Image/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Path/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Reader/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/ToVTKImage/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Visualizer/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKImageWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKRendererWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKRenderWindowWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKVolumeWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/VTKVolumePropertyWrapper/cmake_install.cmake")
+  include("C:/Users/xyu/Registration/Writer/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/xyu/Registration/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

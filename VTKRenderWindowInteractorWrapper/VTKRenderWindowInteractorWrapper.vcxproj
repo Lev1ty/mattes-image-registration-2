@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{714A5B84-1781-30B3-BF6F-31686C9F6917}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>VTKRenderWindowInteractorWrapper</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\xyu\Registration\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VTKRenderWindowInteractorWrapper.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">VTKRenderWindowInteractorWrapper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\xyu\Registration\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VTKRenderWindowInteractorWrapper.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">VTKRenderWindowInteractorWrapper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\xyu\Registration\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">VTKRenderWindowInteractorWrapper.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">VTKRenderWindowInteractorWrapper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\xyu\Registration\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">VTKRenderWindowInteractorWrapper.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">VTKRenderWindowInteractorWrapper</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR="Debug";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;CMAKE_INTDIR=\"Debug\";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\xyu\Registration
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/Debug//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\VTK\lib\libvtkDomainsChemistry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersFlowPaths-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneric-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHyperTree-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallelImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersProgrammable-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSMP-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSelection-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersVerdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkverdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksqlite-6.3.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtWebkit-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGeovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkproj4-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOEnSight-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExodus-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingGL2PS-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingContextOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkgl2ps-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtklibxml2-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLSDyna-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMINC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMovie-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkoggtheora-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOPLY-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjsoncpp-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallelXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOVideo-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMorphological-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStencil-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLIC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLOD-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolumeOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsContext2D-6.3.dll.a;..\CHECK\Debug\CHECK.lib;C:\Program Files (x86)\VTK\lib\libvtkChartsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisLayout-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexoIIc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIONetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF_cxx-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;C:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;C:\Program Files (x86)\VTK\lib\libvtkParallelCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXMLParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexpat-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLegacy-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersTexture-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLabel-6.3.dll.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgetsd.a;C:\Qt\5.4\mingw491_32\lib\libQt5Guid.a;C:\Qt\5.4\mingw491_32\lib\libQt5Cored.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingOpenGL-6.3.dll.a;glu32.lib;C:\Program Files (x86)\VTK\lib\libvtkRenderingContext2D-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionWidgets-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersModeling-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionStyle-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkDICOMParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkmetaio-6.3.dll.a;comctl32.lib;wsock32.lib;C:\Program Files (x86)\VTK\lib\libvtkpng-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtktiff-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjpeg-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingAnnotation-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingFreeType-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkftgl-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkfreetype-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkzlib-6.3.dll.a;opengl32.lib;C:\Program Files (x86)\VTK\lib\libvtkImagingColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolume-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersExtraction-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingFourier-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkalglib-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonExecutionModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonComputationalGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonDataModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMisc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonTransforms-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonSystem-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksys-6.3.dll.a;ws2_32.lib;Psapi.lib;-lgdi32;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/Debug/VTKRenderWindowInteractorWrapper.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/xyu/Registration/Debug/VTKRenderWindowInteractorWrapper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="Release";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"Release\";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\xyu\Registration
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/Release//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\VTK\lib\libvtkDomainsChemistry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersFlowPaths-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneric-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHyperTree-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallelImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersProgrammable-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSMP-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSelection-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersVerdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkverdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksqlite-6.3.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtWebkit-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGeovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkproj4-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOEnSight-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExodus-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingGL2PS-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingContextOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkgl2ps-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtklibxml2-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLSDyna-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMINC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMovie-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkoggtheora-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOPLY-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjsoncpp-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallelXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOVideo-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMorphological-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStencil-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLIC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLOD-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolumeOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsContext2D-6.3.dll.a;..\CHECK\Release\CHECK.lib;C:\Program Files (x86)\VTK\lib\libvtkChartsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisLayout-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexoIIc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIONetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF_cxx-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;C:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;C:\Program Files (x86)\VTK\lib\libvtkParallelCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXMLParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexpat-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLegacy-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersTexture-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLabel-6.3.dll.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingOpenGL-6.3.dll.a;glu32.lib;C:\Program Files (x86)\VTK\lib\libvtkRenderingContext2D-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionWidgets-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersModeling-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionStyle-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkDICOMParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkmetaio-6.3.dll.a;comctl32.lib;wsock32.lib;C:\Program Files (x86)\VTK\lib\libvtkpng-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtktiff-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjpeg-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingAnnotation-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingFreeType-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkftgl-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkfreetype-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkzlib-6.3.dll.a;opengl32.lib;C:\Program Files (x86)\VTK\lib\libvtkImagingColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolume-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersExtraction-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingFourier-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkalglib-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonExecutionModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonComputationalGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonDataModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMisc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonTransforms-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonSystem-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksys-6.3.dll.a;ws2_32.lib;Psapi.lib;-lgdi32;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/Release/VTKRenderWindowInteractorWrapper.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/xyu/Registration/Release/VTKRenderWindowInteractorWrapper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="MinSizeRel";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"MinSizeRel\";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\xyu\Registration
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/MinSizeRel//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\VTK\lib\libvtkDomainsChemistry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersFlowPaths-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneric-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHyperTree-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallelImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersProgrammable-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSMP-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSelection-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersVerdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkverdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksqlite-6.3.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtWebkit-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGeovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkproj4-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOEnSight-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExodus-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingGL2PS-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingContextOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkgl2ps-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtklibxml2-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLSDyna-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMINC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMovie-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkoggtheora-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOPLY-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjsoncpp-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallelXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOVideo-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMorphological-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStencil-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLIC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLOD-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolumeOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsContext2D-6.3.dll.a;..\CHECK\MinSizeRel\CHECK.lib;C:\Program Files (x86)\VTK\lib\libvtkChartsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisLayout-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexoIIc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIONetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF_cxx-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;C:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;C:\Program Files (x86)\VTK\lib\libvtkParallelCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXMLParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexpat-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLegacy-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersTexture-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLabel-6.3.dll.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingOpenGL-6.3.dll.a;glu32.lib;C:\Program Files (x86)\VTK\lib\libvtkRenderingContext2D-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionWidgets-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersModeling-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionStyle-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkDICOMParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkmetaio-6.3.dll.a;comctl32.lib;wsock32.lib;C:\Program Files (x86)\VTK\lib\libvtkpng-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtktiff-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjpeg-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingAnnotation-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingFreeType-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkftgl-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkfreetype-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkzlib-6.3.dll.a;opengl32.lib;C:\Program Files (x86)\VTK\lib\libvtkImagingColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolume-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersExtraction-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingFourier-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkalglib-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonExecutionModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonComputationalGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonDataModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMisc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonTransforms-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonSystem-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksys-6.3.dll.a;ws2_32.lib;Psapi.lib;-lgdi32;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/MinSizeRel/VTKRenderWindowInteractorWrapper.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/xyu/Registration/MinSizeRel/VTKRenderWindowInteractorWrapper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR="RelWithDebInfo";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;QT_WIDGETS_LIB;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";VTKRenderWindowInteractorWrapper_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper;C:\Qt\5.4\mingw491_32\include;C:\Qt\5.4\mingw491_32\include\QtWidgets;C:\Qt\5.4\mingw491_32\include\QtGui;C:\Qt\5.4\mingw491_32\include\QtCore;C:\Qt\5.4\mingw491_32\mkspecs\win32-g++;C:\Program Files (x86)\VTK\include;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreLinkEvent>
+      <Message>Auto build dll exports</Message>
+      <Command>setlocal
+cd C:\Users\xyu\Registration
+if %errorlevel% neq 0 goto :cmEnd
+C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/RelWithDebInfo//objects.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreLinkEvent>
+    <Link>
+      <AdditionalDependencies>C:\Program Files (x86)\VTK\lib\libvtkDomainsChemistry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersFlowPaths-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneric-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHyperTree-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallelImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersProgrammable-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSMP-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSelection-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersVerdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkverdict-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOSQL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksqlite-6.3.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQtWebkit-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGeovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkproj4-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOEnSight-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExodus-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOExport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingGL2PS-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingContextOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkgl2ps-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImport-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOInfovis-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtklibxml2-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLSDyna-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMINC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOMovie-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkoggtheora-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOPLY-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjsoncpp-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOParallelXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOVideo-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingMorphological-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingStencil-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLIC-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLOD-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolumeOpenGL-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsContext2D-6.3.dll.a;..\CHECK\RelWithDebInfo\CHECK.lib;C:\Program Files (x86)\VTK\lib\libvtkChartsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersImaging-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisLayout-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersAMR-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInfovisCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersParallel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexoIIc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIONetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF_cxx-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkNetCDF-6.3.dll.a;C:\Program Files (x86)\VTK\lib\vtkhdf5_hl-6.3.lib;C:\Program Files (x86)\VTK\lib\vtkhdf5-6.3.lib;C:\Program Files (x86)\VTK\lib\libvtkParallelCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXML-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOXMLParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkexpat-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOLegacy-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersTexture-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkGUISupportQt-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingLabel-6.3.dll.a;C:\Qt\5.4\mingw491_32\lib\libQt5Widgets.a;C:\Qt\5.4\mingw491_32\lib\libQt5Gui.a;C:\Qt\5.4\mingw491_32\lib\libQt5Core.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingOpenGL-6.3.dll.a;glu32.lib;C:\Program Files (x86)\VTK\lib\libvtkRenderingContext2D-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkViewsCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionWidgets-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersModeling-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkInteractionStyle-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingHybrid-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOImage-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkDICOMParser-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkIOCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkmetaio-6.3.dll.a;comctl32.lib;wsock32.lib;C:\Program Files (x86)\VTK\lib\libvtkpng-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtktiff-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkjpeg-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingAnnotation-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingFreeType-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkftgl-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkfreetype-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkzlib-6.3.dll.a;opengl32.lib;C:\Program Files (x86)\VTK\lib\libvtkImagingColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingVolume-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkRenderingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonColor-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersExtraction-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersStatistics-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingFourier-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkImagingCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkalglib-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersSources-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersGeneral-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkFiltersCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonExecutionModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonComputationalGeometry-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonDataModel-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMisc-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonTransforms-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonMath-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonSystem-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtkCommonCore-6.3.dll.a;C:\Program Files (x86)\VTK\lib\libvtksys-6.3.dll.a;ws2_32.lib;Psapi.lib;-lgdi32;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/RelWithDebInfo/VTKRenderWindowInteractorWrapper.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/xyu/Registration/RelWithDebInfo/VTKRenderWindowInteractorWrapper.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\xyu\Registration\VTKRenderWindowInteractorWrapper\VTKRenderWindowInteractorWrapper.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\xyu\Registration\ZERO_CHECK.vcxproj">
+      <Project>{5E83F2C8-8620-3A02-B036-7B64CA89614E}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\xyu\Registration\CHECK\CHECK.vcxproj">
+      <Project>{8C19706B-E3BE-3C44-A45D-4938441E7D31}</Project>
+      <Name>CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

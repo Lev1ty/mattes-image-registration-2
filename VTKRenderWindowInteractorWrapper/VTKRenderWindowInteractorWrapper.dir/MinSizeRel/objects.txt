@@ -1,0 +1,1 @@
+C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/MinSizeRel/VTKRenderWindowInteractorWrapper.obj

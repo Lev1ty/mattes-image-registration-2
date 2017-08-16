@@ -1,0 +1,1 @@
+C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/RelWithDebInfo/VTKRenderWindowInteractorWrapper.obj

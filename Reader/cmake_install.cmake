@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader
+# Install script for directory: C:/Users/xyu/Registration/Reader
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Registration")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Registration")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -16,8 +16,7 @@ std::string* Path::GetPath() const noexcept
 
 std::string* const Path::GetConstPath() const noexcept
 {
-	NULLPTR_ERROR(path_.get());
-	return path_.get();
+	return GetPath();
 }
 
 void Path::SetPath(std::string* path) noexcept

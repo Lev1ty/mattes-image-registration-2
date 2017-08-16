@@ -8,78 +8,30 @@ Visualizer::~Visualizer()
 {
 }
 
-vtkRenderWindow* GetRenderWindow() const noexcept
+void Visualizer::Execute()
 {
-  NULLPTR_ERROR(render_window_.GetPointer());
-  return render_window_.GetPointer();
+	Instantiate();
+	GetRenderWindow()->AddRenderer(GetRenderer());
+	GetRenderWindowInteractor()->SetRenderWindow(GetRenderWindow());
+	GetRenderWindow()->Render();
+	GetSmartVolumeMapper()->SetBlendModeToComposite();
+	GetSmartVolumeMapper()->SetInputData(GetImage());
+	GetVolumeProperty()->ShadeOff();
+	GetVolumeProperty()->SetInterpolationType(VTK_LINEAR_INTERPOLATION);
+	GetVolume()->SetMapper(GetSmartVolumeMapper());
+	GetVolume()->SetProperty(GetVolumeProperty());
+	GetRenderer()->AddViewProp(GetVolume());
+	GetRenderer()->ResetCamera();
+	GetRenderWindow()->Render();
+	GetRenderWindowInteractor()->Render();
 }
 
-vtkRenderWindow* const GetConstRenderWindow() const noexcept
+void Visualizer::Instantiate()
 {
-  NULLPTR_ERROR(render_window_.GetPointer());
-  return render_window_.GetPointer();
-}
-
-void SetRenderWindow(vtkRenderWindow* render_window) noexcept
-{
-  NULLPTR_WARNING(render_window_.GetPointer());
-  render_window_ = render_window;
-  NULLPTR_ERROR(render_window_.GetPointer());
-}
-
-vtkRenderer* GetRenderer() const noexcept
-{
-  NULLPTR_ERROR(renderer_.GetPointer());
-  return renderer_.GetPointer();
-}
-
-vtkRenderer* const GetConstRenderer() const noexcept
-{
-  NULLPTR_ERROR(renderer_.GetPointer());
-  return renderer_.GetPointer();
-}
-
-void SetRenderer(vtkRenderer* renderer) noexcept
-{
-  NULLPTR_WARNING(renderer_.GetPointer());
-  renderer_ = renderer;
-  NULLPTR_ERROR(renderer_.GetPointer());  
-}
-
-vtkRenderWindowInteractor* GetRenderWindowInteractor() const noexcept
-{
-  NULLPTR_ERROR(render_window_interactor_.GetPointer());
-  return render_window_interactor_.GetPointer();
-}
-
-vtkRenderWindowInteractor* const GetConstRenderWindowInteractor() const noexcept
-{
-  NULLPTR_ERROR(render_window_interactor_.GetPointer());
-  return render_window_interactor_.GetPointer();
-}
-
-void SetRenderWindowIneractor(vtkRenderWindowInteractor* render_window_interactor) noexcept
-{
-  NULLPTR_WARNING(render_window_interactor_.GetPointer());
-  render_window_interactor_ = render_window_interactor;
-  NULLPTR_ERROR(render_window_interactor_.GetPointer());
-}
-
-vtkSmartVolumeMapper* GetSmartVolumeMapper() const noexcept
-{
-  NULLPTR_ERROR(smart_volume_mapper_.GetPointer());
-  return smart_volume_mapper_.GetPointer();
-}
-
-vtkSmartVolumeMapper* const GetConstSmartVolumeMapper() noexcept
-{
-  NULLPTR_ERROR(smart_volume_mapper_.GetPointer());
-  return smart_volume_mapper_.GetPointer();
-}
-
-void SetSmartVolumeMapper(vtkSmartVolumeMapper* smart_volume_mapper) noexcept
-{
-  NULLPTR_ERROR(smart_volume_mapper_.GetPointer());
-  smart_volume_mapper_ = smart_volume_mapper;
-  NULLPTR_WARNING(smart_volume_mapper_.GetPointer());  
+	SetRenderWindow(vtkRenderWindow::New());
+	SetRenderer(vtkRenderer::New());
+	SetRenderWindowInteractor(vtkRenderWindowInteractor::New());
+	SetSmartVolumeMapper(vtkSmartVolumeMapper::New());
+	SetVolumeProperty(vtkVolumeProperty::New());
+	SetVolume(vtkVolume::New());
 }

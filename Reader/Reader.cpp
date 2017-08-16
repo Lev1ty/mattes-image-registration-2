@@ -8,19 +8,18 @@ Reader::~Reader()
 {
 }
 
-Reader::ReaderType::Pointer Reader::GetReader() const noexcept
+itk::ImageFileReader<Reader::ImageType>::Pointer Reader::GetReader() const noexcept
 {
 	NULLPTR_ERROR(reader_.GetPointer());
 	return reader_;
 }
 
-Reader::ReaderType::ConstPointer Reader::GetConstReader() const noexcept
+itk::ImageFileReader<Reader::ImageType>::ConstPointer Reader::GetConstReader() const noexcept
 {
-	NULLPTR_ERROR(reader_.GetPointer());
-	return reader_;
+	return GetReader();
 }
 
-void Reader::SetReader(Reader::ReaderType::Pointer reader) noexcept
+void Reader::SetReader(itk::ImageFileReader<ImageType>::Pointer reader) noexcept
 {
 	NULLPTR_WARNING(reader_.GetPointer());
 	reader_ = reader;
@@ -29,8 +28,13 @@ void Reader::SetReader(Reader::ReaderType::Pointer reader) noexcept
 
 void Reader::Execute()
 {
-	SetReader(ReaderType::New());
+	Instantiate();
 	GetReader()->SetFileName(GetConstPath()->c_str());
 	GetReader()->Update();
 	SetImage(GetReader()->GetOutput());
+}
+
+void Reader::Instantiate()
+{
+	SetReader(itk::ImageFileReader<ImageType>::New());
 }

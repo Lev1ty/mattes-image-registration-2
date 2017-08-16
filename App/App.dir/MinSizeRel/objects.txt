@@ -1,1 +1,1 @@
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/App/App.dir/MinSizeRel/App.obj
+C:/Users/xyu/Registration/App/App.dir/MinSizeRel/App.obj

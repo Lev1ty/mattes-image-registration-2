@@ -1,1 +1,1 @@
-C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/Reader.dir/RelWithDebInfo/Reader.obj
+C:/Users/xyu/Registration/Reader/Reader.dir/RelWithDebInfo/Reader.obj
