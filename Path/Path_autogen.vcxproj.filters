@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Path\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\CMakeFiles\50b4a0d242abc04560374a9475810550\Path_autogen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Path\CMakeFiles\Path_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B78E80AB-951D-3A2C-8037-F3046D371119}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

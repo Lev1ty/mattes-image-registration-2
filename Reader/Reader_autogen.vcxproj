@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CF70511B-F959-3E53-871C-6DFB324E5836}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Reader_autogen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\ITKIOFactoryRegistration;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\ITKIOFactoryRegistration;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\ITKIOFactoryRegistration;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\ITKIOFactoryRegistration;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-8.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" "-BC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" --check-stamp-file "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" "-BC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" --check-stamp-file "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" "-BC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" --check-stamp-file "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" "-BC:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration" --check-stamp-file "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeLists.txt;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\CMakeFiles\681ca64a92593e0c00b13fed77c441c4\Reader_autogen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic MOC for target Reader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/Reader_autogen.dir" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/681ca64a92593e0c00b13fed77c441c4/Reader_autogen.rule;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Debug\Image.dll;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Debug\Path.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\Reader_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic MOC for target Reader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/Reader_autogen.dir" Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/681ca64a92593e0c00b13fed77c441c4/Reader_autogen.rule;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Release\Image.dll;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Release\Path.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\Reader_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic MOC for target Reader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/Reader_autogen.dir" MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/681ca64a92593e0c00b13fed77c441c4/Reader_autogen.rule;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\MinSizeRel\Image.dll;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\MinSizeRel\Path.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\Reader_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic MOC for target Reader</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Reader/CMakeFiles/Reader_autogen.dir" RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/681ca64a92593e0c00b13fed77c441c4/Reader_autogen.rule;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\RelWithDebInfo\Image.dll;C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\RelWithDebInfo\Path.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\Reader_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Reader\CMakeFiles\Reader_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\ZERO_CHECK.vcxproj">
+      <Project>{53928360-E615-3DCB-96FC-84E14A8BE9F4}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Image\Image.vcxproj">
+      <Project>{F12CAC2D-AA0B-3424-856E-870AC032A1C9}</Project>
+      <Name>Image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Adam Yu\Documents\Visual Studio 2017\Projects\Registration\Path\Path.vcxproj">
+      <Project>{99B89AB2-8530-351D-90DE-075C1BF29319}</Project>
+      <Name>Path</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

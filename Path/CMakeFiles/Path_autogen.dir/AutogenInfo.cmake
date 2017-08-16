@@ -1,0 +1,33 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/")
+set(AM_CMAKE_SOURCE_DIR "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/Path_autogen")
+set(AM_SOURCES "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/Path.cpp")
+set(AM_HEADERS "")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "C:/Program Files/Anaconda3/Library/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE )
+set(AM_QT_RCC_EXECUTABLE )
+# MOC settings
+set(AM_MOC_SKIP "")
+set(AM_MOC_DEFINITIONS "ITK_IO_FACTORY_REGISTER_MANAGER;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2)")
+set(AM_MOC_INCLUDES "C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path;C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Path/Path_autogen/include;C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/ITKIOFactoryRegistration;C:/Program Files/ITK/include/ITK-4.12;C:/Program Files/VTK/include/vtk-8.0;C:/Users/Adam Yu/Documents/Visual Studio 2017/Projects/Registration/Utility;C:/Program Files/ITK/include")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD )
+# UIC settings
+set(AM_UIC_SKIP )
+set(AM_UIC_TARGET_OPTIONS )
+set(AM_UIC_OPTIONS_FILES )
+set(AM_UIC_OPTIONS_OPTIONS )
+set(AM_UIC_SEARCH_PATHS )
+# RCC settings
+set(AM_RCC_SOURCES  )
+set(AM_RCC_INPUTS )
+set(AM_RCC_OPTIONS_FILES )
+set(AM_RCC_OPTIONS_OPTIONS )

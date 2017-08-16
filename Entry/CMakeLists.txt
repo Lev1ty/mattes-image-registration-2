@@ -1,0 +1,2 @@
+ADD_EXECUTABLE(Entry Entry.cpp Main.cpp)
+TARGET_LINK_LIBRARIES(Entry App)
