@@ -1,0 +1,3 @@
+ADD_LIBRARY(VTKCompositeOpacity VTKCompositeOpacity.cpp)
+TARGET_INCLUDE_DIRECTORIES(VTKCompositeOpacity PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+TARGET_LINK_LIBRARIES(VTKCompositeOpacity VTKPiecewiseFunctionWrapper)

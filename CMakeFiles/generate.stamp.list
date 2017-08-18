@@ -1,17 +1,19 @@
-C:/Users/xyu/Registration/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/App/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/CHECK/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Entry/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Image/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Reader/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/ToVTKImage/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Visualizer/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKImageWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKRendererWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKRenderWindowWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKVolumeWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/VTKVolumePropertyWrapper/CMakeFiles/generate.stamp
-C:/Users/xyu/Registration/Writer/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/App/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/CHECK/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Entry/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Image/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Reader/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/ToVTKImage/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Visualizer/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKImageWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKPiecewiseFunctionWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKRendererWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKSmartVolumeMapperWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKVolumePropertyWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKVolumeWrapper/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/Writer/CMakeFiles/generate.stamp
+C:/Users/Adam Yu/Desktop/Registration/VTKCompositeOpacity/CMakeFiles/generate.stamp

@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/MinSizeRel/VTKRenderWindowInteractorWrapper.obj
+C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowInteractorWrapper/VTKRenderWindowInteractorWrapper.dir/MinSizeRel/VTKRenderWindowInteractorWrapper.obj

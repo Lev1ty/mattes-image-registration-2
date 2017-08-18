@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/VTKSmartVolumeMapperWrapper.dir/RelWithDebInfo/VTKSmartVolumeMapperWrapper.obj
+C:/Users/Adam Yu/Desktop/Registration/VTKSmartVolumeMapperWrapper/VTKSmartVolumeMapperWrapper.dir/RelWithDebInfo/VTKSmartVolumeMapperWrapper.obj

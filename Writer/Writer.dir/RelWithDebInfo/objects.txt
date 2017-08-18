@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/Writer/Writer.dir/RelWithDebInfo/Writer.obj
+C:/Users/Adam Yu/Desktop/Registration/Writer/Writer.dir/RelWithDebInfo/Writer.obj

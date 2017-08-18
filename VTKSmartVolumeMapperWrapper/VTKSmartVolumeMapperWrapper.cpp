@@ -21,7 +21,7 @@ vtkSmartVolumeMapper* const VTKSmartVolumeMapperWrapper::GetConstSmartVolumeMapp
 
 void VTKSmartVolumeMapperWrapper::SetSmartVolumeMapper(vtkSmartVolumeMapper* smart_volume_mapper) noexcept
 {
-	NULLPTR_ERROR(smart_volume_mapper_.GetPointer());
-	smart_volume_mapper_ = smart_volume_mapper;
 	NULLPTR_WARNING(smart_volume_mapper_.GetPointer());
+	smart_volume_mapper_ = smart_volume_mapper;
+	NULLPTR_ERROR(smart_volume_mapper_.GetPointer());
 }

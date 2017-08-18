@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/xyu/Registration/Writer
+# Install script for directory: C:/Users/Adam Yu/Desktop/Registration/Writer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Registration")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Registration")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -1,18 +1,20 @@
-C:/Users/xyu/Registration/CMakeFiles/ALL_BUILD.dir
-C:/Users/xyu/Registration/CMakeFiles/ZERO_CHECK.dir
-C:/Users/xyu/Registration/App/CMakeFiles/App.dir
-C:/Users/xyu/Registration/CHECK/CMakeFiles/CHECK.dir
-C:/Users/xyu/Registration/Entry/CMakeFiles/Entry.dir
-C:/Users/xyu/Registration/Image/CMakeFiles/Image.dir
-C:/Users/xyu/Registration/Path/CMakeFiles/Path.dir
-C:/Users/xyu/Registration/Reader/CMakeFiles/Reader.dir
-C:/Users/xyu/Registration/ToVTKImage/CMakeFiles/ToVTKImage.dir
-C:/Users/xyu/Registration/Visualizer/CMakeFiles/Visualizer.dir
-C:/Users/xyu/Registration/VTKImageWrapper/CMakeFiles/VTKImageWrapper.dir
-C:/Users/xyu/Registration/VTKRendererWrapper/CMakeFiles/VTKRendererWrapper.dir
-C:/Users/xyu/Registration/VTKRenderWindowWrapper/CMakeFiles/VTKRenderWindowWrapper.dir
-C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/VTKRenderWindowInteractorWrapper.dir
-C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/CMakeFiles/VTKSmartVolumeMapperWrapper.dir
-C:/Users/xyu/Registration/VTKVolumeWrapper/CMakeFiles/VTKVolumeWrapper.dir
-C:/Users/xyu/Registration/VTKVolumePropertyWrapper/CMakeFiles/VTKVolumePropertyWrapper.dir
-C:/Users/xyu/Registration/Writer/CMakeFiles/Writer.dir
+C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/ALL_BUILD.dir
+C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Adam Yu/Desktop/Registration/App/CMakeFiles/App.dir
+C:/Users/Adam Yu/Desktop/Registration/CHECK/CMakeFiles/CHECK.dir
+C:/Users/Adam Yu/Desktop/Registration/Entry/CMakeFiles/Entry.dir
+C:/Users/Adam Yu/Desktop/Registration/Image/CMakeFiles/Image.dir
+C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/Path.dir
+C:/Users/Adam Yu/Desktop/Registration/Reader/CMakeFiles/Reader.dir
+C:/Users/Adam Yu/Desktop/Registration/ToVTKImage/CMakeFiles/ToVTKImage.dir
+C:/Users/Adam Yu/Desktop/Registration/Visualizer/CMakeFiles/Visualizer.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKImageWrapper/CMakeFiles/VTKImageWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKPiecewiseFunctionWrapper/CMakeFiles/VTKPiecewiseFunctionWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKRendererWrapper/CMakeFiles/VTKRendererWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowInteractorWrapper/CMakeFiles/VTKRenderWindowInteractorWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowWrapper/CMakeFiles/VTKRenderWindowWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKSmartVolumeMapperWrapper/CMakeFiles/VTKSmartVolumeMapperWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKVolumePropertyWrapper/CMakeFiles/VTKVolumePropertyWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKVolumeWrapper/CMakeFiles/VTKVolumeWrapper.dir
+C:/Users/Adam Yu/Desktop/Registration/Writer/CMakeFiles/Writer.dir
+C:/Users/Adam Yu/Desktop/Registration/VTKCompositeOpacity/CMakeFiles/VTKCompositeOpacity.dir

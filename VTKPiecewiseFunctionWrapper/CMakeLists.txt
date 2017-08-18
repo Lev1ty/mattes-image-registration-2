@@ -1,0 +1,3 @@
+ADD_LIBRARY(VTKPiecewiseFunctionWrapper VTKPiecewiseFunctionWrapper.cpp)
+TARGET_INCLUDE_DIRECTORIES(VTKPiecewiseFunctionWrapper PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+TARGET_LINK_LIBRARIES(VTKPiecewiseFunctionWrapper ${VTK_LIBRARIES} CHECK)

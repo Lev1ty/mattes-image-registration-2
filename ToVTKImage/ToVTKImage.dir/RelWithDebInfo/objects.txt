@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/ToVTKImage/ToVTKImage.dir/RelWithDebInfo/ToVTKImage.obj
+C:/Users/Adam Yu/Desktop/Registration/ToVTKImage/ToVTKImage.dir/RelWithDebInfo/ToVTKImage.obj

@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/VTKVolumePropertyWrapper/VTKVolumePropertyWrapper.dir/RelWithDebInfo/VTKVolumePropertyWrapper.obj
+C:/Users/Adam Yu/Desktop/Registration/VTKVolumePropertyWrapper/VTKVolumePropertyWrapper.dir/RelWithDebInfo/VTKVolumePropertyWrapper.obj

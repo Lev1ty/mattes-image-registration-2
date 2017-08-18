@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\xyu\Registration\App\App.cpp">
+    <ClCompile Include="C:\Users\Adam Yu\Desktop\Registration\App\App.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\xyu\Registration\App\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Adam Yu\Desktop\Registration\App\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{8574B603-8B2A-36E5-89C4-4A52E88EA8D4}</UniqueIdentifier>
+      <UniqueIdentifier>{1A18B268-3146-37FF-9C7B-F75FB6B60871}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

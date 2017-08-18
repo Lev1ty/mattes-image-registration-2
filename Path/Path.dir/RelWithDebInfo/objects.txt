@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/Path/Path.dir/RelWithDebInfo/Path.obj
+C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/RelWithDebInfo/Path.obj

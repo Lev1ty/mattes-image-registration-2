@@ -1,1 +1,1 @@
-C:/Users/xyu/Registration/Image/Image.dir/RelWithDebInfo/Image.obj
+C:/Users/Adam Yu/Desktop/Registration/Image/Image.dir/RelWithDebInfo/Image.obj

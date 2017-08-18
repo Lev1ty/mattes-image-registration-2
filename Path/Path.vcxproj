@@ -1,48 +1,48 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|Win32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|Win32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|Win32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>Win32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4064600F-8AF7-37BB-AA3F-DC3ACF0F3A1C}</ProjectGuid>
+    <ProjectGuid>{BE19A6D0-9645-395D-899B-E73AEDD3AC14}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <Platform>Win32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>Path</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
@@ -56,35 +56,35 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\xyu\Registration\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Path.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Path</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\xyu\Registration\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Path.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Path</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\xyu\Registration\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Path.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Path</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\xyu\Registration\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Path.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Path</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
-    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
-    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adam Yu\Desktop\Registration\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Path.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Path</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adam Yu\Desktop\Registration\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Path.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Path</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adam Yu\Desktop\Registration\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Path.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Path</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adam Yu\Desktop\Registration\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Path.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Path</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -96,15 +96,16 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Debug";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Debug";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
+      <BrowseInformation>true</BrowseInformation>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Debug\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Debug\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,9 +115,9 @@
     <PreLinkEvent>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\xyu\Registration
+cd "C:\Program Files\CMake\bin"
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/Path/Path.dir/Debug//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def" "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/Debug//objects.txt"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -128,23 +129,27 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>..\CHECK\Debug\CHECK.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/xyu/Registration/Path/Debug/Path.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/xyu/Registration/Debug/Path.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Adam Yu/Desktop/Registration/Path/Debug/Path.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Adam Yu/Desktop/Registration/Debug/Path.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -154,16 +159,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Release";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="Release";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Release\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"Release\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -173,9 +179,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreLinkEvent>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\xyu\Registration
+cd "C:\Program Files\CMake\bin"
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/Path/Path.dir/Release//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def" "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/Release//objects.txt"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -187,23 +193,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>..\CHECK\Release\CHECK.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/xyu/Registration/Path/Release/Path.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/xyu/Registration/Release/Path.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Adam Yu/Desktop/Registration/Path/Release/Path.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Adam Yu/Desktop/Registration/Release/Path.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -213,16 +220,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="MinSizeRel";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="MinSizeRel";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"MinSizeRel\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"MinSizeRel\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -232,9 +240,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreLinkEvent>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\xyu\Registration
+cd "C:\Program Files\CMake\bin"
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/Path/Path.dir/MinSizeRel//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def" "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/MinSizeRel//objects.txt"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,23 +254,24 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>..\CHECK\MinSizeRel\CHECK.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/xyu/Registration/Path/MinSizeRel/Path.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/xyu/Registration/MinSizeRel/Path.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Adam Yu/Desktop/Registration/Path/MinSizeRel/Path.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Adam Yu/Desktop/Registration/MinSizeRel/Path.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) -mwin32 -mthreads /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -273,15 +282,15 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h";vtkRenderingCore_INCLUDE="C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="RelWithDebInfo";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE="C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR="RelWithDebInfo";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingOpenGL.h\";vtkRenderingCore_INCLUDE=\"C:/Users/xyu/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"RelWithDebInfo\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;vtkDomainsChemistry_AUTOINIT=1(vtkDomainsChemistryOpenGL2);vtkIOExport_AUTOINIT=1(vtkIOExportOpenGL2);vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL2);vtkRenderingCore_INCLUDE=\"C:/Users/Adam Yu/Desktop/Registration/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL2.h\";vtkRenderingOpenGL2_AUTOINIT=1(vtkRenderingGL2PSOpenGL2);vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL2);ITK_IO_FACTORY_REGISTER_MANAGER;CMAKE_INTDIR=\"RelWithDebInfo\";Path_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\xyu\Registration\ITKIOFactoryRegistration;C:\Program Files (x86)\VTK\include\vtk-6.3;C:\Program Files (x86)\ITK\include\ITK-4.12;C:\Users\xyu\Registration\Path;C:\Users\xyu\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Adam Yu\Desktop\Registration\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-8.0;C:\Program Files\ITK\include\ITK-4.12;C:\Users\Adam Yu\Desktop\Registration\Path;C:\Users\Adam Yu\Desktop\Registration\CHECK;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -291,9 +300,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreLinkEvent>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\xyu\Registration
+cd "C:\Program Files\CMake\bin"
 if %errorlevel% neq 0 goto :cmEnd
-C:\CMake\bin\cmake.exe -E __create_def C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def C:/Users/xyu/Registration/Path/Path.dir/RelWithDebInfo//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def" "C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/RelWithDebInfo//objects.txt"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,24 +314,25 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>..\CHECK\RelWithDebInfo\CHECK.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86 -mthreads</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/xyu/Registration/Path/RelWithDebInfo/Path.lib</ImportLibrary>
-      <ModuleDefinitionFile>C:/Users/xyu/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/xyu/Registration/RelWithDebInfo/Path.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/Users/Adam Yu/Desktop/Registration/Path/RelWithDebInfo/Path.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Adam Yu/Desktop/Registration/Path/Path.dir/$(Configuration)/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Adam Yu/Desktop/Registration/RelWithDebInfo/Path.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
-      <Version></Version>
+      <Version>
+      </Version>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\xyu\Registration\Path\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/xyu/Registration/Path/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
+    <CustomBuild Include="C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Desktop/Registration" "-BC:/Users/Adam Yu/Desktop/Registration" --check-stamp-file "C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,12 +340,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/xyu/Registration/Path/CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\xyu\Registration\Path\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/xyu/Registration/Path/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Adam Yu\Desktop\Registration\Path\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Desktop/Registration" "-BC:/Users/Adam Yu/Desktop/Registration" --check-stamp-file "C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -343,12 +353,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/xyu/Registration/Path/CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\xyu\Registration\Path\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/xyu/Registration/Path/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Adam Yu\Desktop\Registration\Path\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Desktop/Registration" "-BC:/Users/Adam Yu/Desktop/Registration" --check-stamp-file "C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -356,12 +366,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/xyu/Registration/Path/CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\xyu\Registration\Path\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/xyu/Registration/Path/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-C:\CMake\bin\cmake.exe -HC:/Users/xyu/Registration -BC:/Users/xyu/Registration --check-stamp-file C:/Users/xyu/Registration/Path/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Adam Yu\Desktop\Registration\Path\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Adam Yu/Desktop/Registration" "-BC:/Users/Adam Yu/Desktop/Registration" --check-stamp-file "C:/Users/Adam Yu/Desktop/Registration/Path/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -369,21 +379,21 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/xyu/Registration/Path/CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;C:\Users\xyu\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\xyu\Registration\Path\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Adam Yu/Desktop/Registration/Path/CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;C:\Users\Adam Yu\Desktop\Registration\Path\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Adam Yu\Desktop\Registration\Path\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\xyu\Registration\Path\Path.cpp"  />
+    <ClCompile Include="C:\Users\Adam Yu\Desktop\Registration\Path\Path.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\xyu\Registration\ZERO_CHECK.vcxproj">
-      <Project>{5E83F2C8-8620-3A02-B036-7B64CA89614E}</Project>
+    <ProjectReference Include="C:\Users\Adam Yu\Desktop\Registration\ZERO_CHECK.vcxproj">
+      <Project>{210B3798-036F-3F1D-B690-F3AF1EE1A660}</Project>
       <Name>ZERO_CHECK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\xyu\Registration\CHECK\CHECK.vcxproj">
-      <Project>{8C19706B-E3BE-3C44-A45D-4938441E7D31}</Project>
+    <ProjectReference Include="C:\Users\Adam Yu\Desktop\Registration\CHECK\CHECK.vcxproj">
+      <Project>{FDEDFE55-BA83-32CA-89B6-3813AE66DCF0}</Project>
       <Name>CHECK</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/xyu/Registration
+# Install script for directory: C:/Users/Adam Yu/Desktop/Registration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Registration")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/Registration")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -29,22 +29,24 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/xyu/Registration/App/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/CHECK/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Entry/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Image/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Path/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Reader/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/ToVTKImage/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Visualizer/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKImageWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKRendererWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKRenderWindowWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKRenderWindowInteractorWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKSmartVolumeMapperWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKVolumeWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/VTKVolumePropertyWrapper/cmake_install.cmake")
-  include("C:/Users/xyu/Registration/Writer/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/App/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/CHECK/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Entry/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Image/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Path/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Reader/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/ToVTKImage/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Visualizer/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKImageWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKPiecewiseFunctionWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKRendererWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowInteractorWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKRenderWindowWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKSmartVolumeMapperWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKVolumePropertyWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKVolumeWrapper/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/Writer/cmake_install.cmake")
+  include("C:/Users/Adam Yu/Desktop/Registration/VTKCompositeOpacity/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/xyu/Registration/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Adam Yu/Desktop/Registration/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
